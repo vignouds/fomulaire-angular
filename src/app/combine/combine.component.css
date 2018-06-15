@@ -1,0 +1,9 @@
+.input-angular.ng-valid {
+border: 2px green solid;
+border-radius: 2px;
+}
+
+.input-angular.ng-dirty.ng-invalid {
+border: 2px red solid;
+border-radius: 2px;
+}

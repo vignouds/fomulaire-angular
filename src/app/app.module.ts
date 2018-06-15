@@ -5,12 +5,14 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { AppComponent } from './app.component';
 import { FormulaireComponent } from './formulaire/formulaire.component';
 import { TypescriptFirstComponent } from './typescript-first/typescript-first.component';
+import { CombineComponent } from './combine/combine.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormulaireComponent,
-    TypescriptFirstComponent
+    TypescriptFirstComponent,
+    CombineComponent
   ],
   imports: [
     BrowserModule,
